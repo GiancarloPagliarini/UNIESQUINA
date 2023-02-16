@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+/* .carousel-image-1 {
+    background-image: url(./images/Group\ 01.png);
+}
+
+.carousel-image-2 {
+    background-image: url(./images/Group\ 02.png);
+}
+
+.carousel-image-3 {
+    background-image: url(./images/Group\ 03.png);
+}
+
+.carousel-image {
+    height: 515px;
+    width: 1900px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+@media screen and (max-width: 767px) {
+    .container-footer {
+        display: block !important;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .navbar>.container {
+        flex-wrap: nowrap;
+    }
+
+    /* .carousel-image {
+        height: 166px;
+        width: 375px;
+        background-repeat: no-repeat;
+        background-position: center;
+    } */
+
+}
