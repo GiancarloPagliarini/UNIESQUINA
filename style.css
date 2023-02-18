@@ -6,26 +6,7 @@ body {
     font-size: 18px;
 }
 
-/* .carousel-image-1 {
-    background-image: url(./images/Group\ 01.png);
-}
-
-.carousel-image-2 {
-    background-image: url(./images/Group\ 02.png);
-}
-
-.carousel-image-3 {
-    background-image: url(./images/Group\ 03.png);
-}
-
-.carousel-image {
-    height: 515px;
-    width: 1900px;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { /* tamanho de um telefone */
     .container-footer {
         display: block !important;
         padding-top: 12px;
@@ -36,11 +17,41 @@ body {
         flex-wrap: nowrap;
     }
 
-    /* .carousel-image {
-        height: 166px;
-        width: 375px;
-        background-repeat: no-repeat;
-        background-position: center;
-    } */
+    .display-none {
+        display: none !important;
+    }
+
+    .image-responsive {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { /* tamanho de um tablet */
+    .container-footer {
+       gap: 10px; 
+    }
+
+    .navbar>.container {
+        flex-wrap: nowrap;
+    }
+
+    .display-none {
+        display: none !important;
+    }
+
+    .image-responsive {
+        display: block !important;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1180px) {
+    .display-none {
+        display: none !important;
+    }
+
+    .image-responsive {
+        display: block !important;
+    }
 
 }
